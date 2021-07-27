@@ -2,11 +2,11 @@
 @import "./abstracts/variables";
 @import "./abstracts/mixins";
 
+// utils
+@import "./utils/grid";
 // base
 @import "./base/base"; // components
 
 // components
 @import "./components/navbar";
-
-// utils
-@import "./utils/grid";
+@import "./components/movieCard";

@@ -5,12 +5,11 @@ const MovieCard = ({ movie }) => {
 	const { poster_path } = movie;
 
 	return (
-		<div>
-			<img
-				src={poster_path ? `${img_300}/${poster_path}` : unavailable}
-				alt=""
-			/>
-		</div>
+		<img
+			className="movie-card"
+			src={poster_path ? `${img_300}/${poster_path}` : unavailable}
+			alt=""
+		/>
 	);
 };
 

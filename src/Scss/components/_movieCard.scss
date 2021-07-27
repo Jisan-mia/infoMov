@@ -1,0 +1,17 @@
+.movie-card {
+	// max-width: 150px;
+
+	width: 100%;
+	display: inline-block;
+	border-radius: 44px;
+	padding: 20px;
+	cursor: pointer;
+	transition: all 0.1s ease-in-out;
+	&:hover {
+		opacity: 0.84;
+	}
+	@include responsive(500px) {
+		padding: 15px;
+		border-radius: 35px;
+	}
+}
